@@ -1,6 +1,8 @@
 # Personal-Altium-Library
 An Altium library that I've been making over the years. Feel free to use it
 
+This is a list of components in an Altium library. The library contains 80 components including connectors, headers, LEDs, sensors, ICs, and other electronic components. The components are described by their name and a brief description of their function. The components include USB Type C connectors, THT LED lights, RJ45 connectors, current sensors, Arduino boards, capacitors, diodes, op-amps, relays, resistors, screw terminals, SIM modules, and many more. The library can be used as a reference for designing electronic circuits in Altium.
+
 # Schematic Component List: 
 
 Library Component Count : 80
