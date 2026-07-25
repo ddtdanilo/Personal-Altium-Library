@@ -3,7 +3,7 @@ message: "If this library supports your work, please cite the repository."
 title: "Personal Altium Library"
 type: software
 authors:
-  - family-names: "Duarte"
+  - family-names: "Díaz"
     given-names: "Danilo"
 repository-code: "https://github.com/ddtdanilo/Personal-Altium-Library"
 license: CERN-OHL-P-2.0

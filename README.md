@@ -83,4 +83,4 @@ The library design files and documentation are licensed under the
 [CERN Open Hardware Licence Version 2 – Permissive](LICENSE). By contributing,
 you agree that your contribution is made available under the same license.
 
-Copyright © 2019–2026 Danilo Duarte and contributors.
+Copyright © 2019–2026 Danilo Díaz and contributors.
