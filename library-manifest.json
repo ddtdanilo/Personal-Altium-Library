@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "bytes": 396800,
+      "entries": 81,
+      "format": "Altium schematic library",
+      "path": "AltiumLibraryDDT.SchLib",
+      "sha256": "ee693dc51877d1d34cd3d403a80b63eaa73b8db1d229390676fca182697db474"
+    },
+    {
+      "bytes": 36292608,
+      "entries": 106,
+      "format": "Altium PCB library",
+      "path": "AltiumLibraryDDT.PcbLib",
+      "sha256": "81a481ec46adbbc7a35f7ec34eaa426b20561ab68a753cd72c053f3214130923"
+    }
+  ],
+  "schema_version": 1
+}
