@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If this library supports your work, please cite the repository."
+title: "Personal Altium Library"
+type: software
+authors:
+  - family-names: "Duarte"
+    given-names: "Danilo"
+repository-code: "https://github.com/ddtdanilo/Personal-Altium-Library"
+license: CERN-OHL-P-2.0
+date-released: 2025-11-16
+version: 1.0.0

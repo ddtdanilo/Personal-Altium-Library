@@ -1,0 +1,30 @@
+# Altium backups, history, previews, and local workspace state
+History/
+__Previews/
+*.~*
+*.bak
+*.DsnWrk
+*.DsnWrk.*
+*.PrjPcbStructure
+*.REP
+*.LOG
+*.log
+*.SchDocPreview
+
+# Generated output
+Project\ Logs*/
+Project\ Outputs*/
+Generated/
+output/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Python validation cache
+__pycache__/
+*.py[cod]

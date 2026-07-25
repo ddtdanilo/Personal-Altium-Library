@@ -1,0 +1,9 @@
+* text=auto eol=lf
+
+*.SchLib binary
+*.PcbLib binary
+*.IntLib binary
+*.STEP binary
+*.STP binary
+*.step binary
+*.stp binary

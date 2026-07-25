@@ -1,0 +1,21 @@
+changelog:
+  categories:
+    - title: New components
+      labels:
+        - enhancement
+        - component
+    - title: Corrections
+      labels:
+        - bug
+        - correction
+    - title: Documentation
+      labels:
+        - documentation
+    - title: Maintenance
+      labels:
+        - maintenance
+        - dependencies
+        - automation
+    - title: Other changes
+      labels:
+        - "*"

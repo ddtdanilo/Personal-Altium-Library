@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Usage questions and ideas
+    url: https://github.com/ddtdanilo/Personal-Altium-Library/discussions
+    about: Ask for help or discuss ideas with the community.
+  - name: Security report
+    url: https://github.com/ddtdanilo/Personal-Altium-Library/security/advisories/new
+    about: Report security-sensitive concerns privately.

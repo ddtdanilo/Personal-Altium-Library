@@ -1,0 +1,76 @@
+name: Component correction
+description: Report incorrect schematic, footprint, mapping, or metadata.
+title: "[Component]: "
+labels:
+  - component
+  - needs-triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping make the library safer. Do not submit confidential
+        design data or security-sensitive details through this public form.
+  - type: input
+    id: entry
+    attributes:
+      label: Library entry
+      description: Provide the exact symbol or footprint name.
+      placeholder: ACS758LCB-050B-PFF-T
+    validations:
+      required: true
+  - type: input
+    id: part
+    attributes:
+      label: Manufacturer and full part number
+      placeholder: Manufacturer — complete ordering code
+    validations:
+      required: true
+  - type: input
+    id: datasheet
+    attributes:
+      label: Datasheet
+      description: Link the authoritative datasheet and state its revision or date.
+      placeholder: https://example.com/datasheet.pdf — Rev. A, 2026-01
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Schematic symbol
+        - PCB footprint
+        - Symbol-to-footprint mapping
+        - 3D model
+        - Parameters or metadata
+        - Multiple areas
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed problem
+      description: Explain what is currently wrong and how you verified it.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      description: State the correct pins, dimensions, mapping, or metadata.
+    validations:
+      required: true
+  - type: input
+    id: altium
+    attributes:
+      label: Altium Designer version
+      placeholder: Altium Designer 26.x
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched existing issues for this component.
+          required: true
+        - label: I verified the report against the linked manufacturer datasheet.
+          required: true

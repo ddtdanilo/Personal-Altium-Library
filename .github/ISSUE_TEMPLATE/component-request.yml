@@ -1,0 +1,52 @@
+name: Component request
+description: Propose a documented schematic symbol and/or PCB footprint.
+title: "[Request]: "
+labels:
+  - enhancement
+  - component
+body:
+  - type: input
+    id: part
+    attributes:
+      label: Manufacturer and full part number
+      placeholder: Manufacturer — complete ordering code
+    validations:
+      required: true
+  - type: input
+    id: datasheet
+    attributes:
+      label: Official datasheet
+      placeholder: https://manufacturer.example/component.pdf
+    validations:
+      required: true
+  - type: dropdown
+    id: requested
+    attributes:
+      label: Requested content
+      options:
+        - Schematic symbol and PCB footprint
+        - Schematic symbol only
+        - PCB footprint only
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
+      description: Explain the component variant, package, and intended use.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Package and mechanical notes
+      description: Include package code, density level, height, and special requirements.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched the inventory and existing requests.
+          required: true
+        - label: The linked documentation can be shared publicly.
+          required: true
